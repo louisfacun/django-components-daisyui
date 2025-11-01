@@ -1,7 +1,7 @@
 from django.conf import settings
 from django_components import Component, register
 
-from django_components_daisyui.utils import kwargs_to_attrs
+from django_components_daisyui.utils.kwargs_to_attrs import kwargs_to_attrs
 
 
 @register("alert")

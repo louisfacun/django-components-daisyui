@@ -21,6 +21,8 @@ dependencies = [
     "django-components>=0.25",
 ]
 
+[tool.setuptools.package-data]
+"django_components_daisyui" = ["components/**/*.html"]
 
 [project.urls]
 Homepage  = "https://github.com/louisfacun/django-components-daisyui"
