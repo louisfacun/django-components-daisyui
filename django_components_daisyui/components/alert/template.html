@@ -1,0 +1,12 @@
+<div {% html_attrs attrs %}>
+    {% if icon %}
+    <i data-lucide="{{ icon }}" class="size-6 shrink-0"></i>
+    {% endif %}
+    {% if title or description %}
+    <div>
+        {% if title %}<span class="mb-1 font-medium tracking-tight leading-none">{{ title }}</span>{% endif %}
+        {% if description %}<div class="text-sm {{ description_class }}">{{ description }}</div>{% endif %}
+    </div>
+    {% endif %}
+    {% slot "actions" default %}{% endslot %}
+</div>
