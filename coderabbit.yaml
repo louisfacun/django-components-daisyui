@@ -16,4 +16,4 @@ reviews:
   auto_review:
     drafts: true
     base_branches:
-      - "staging"
+      - "main"
