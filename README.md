@@ -5,7 +5,7 @@ Reusable DaisyUI v5 components for Django using django-components.
 ## Installation
 
 ```bash
-pip install daisyui-components-django
+pip install django-components-daisyui
 ```
 
 ## Requirements

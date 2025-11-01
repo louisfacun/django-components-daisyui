@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "daisyui-components-django"
+name = "django-components-daisyui"
 version = "0.0.1a0"
 description = "Reusable daisyUI components with django-components"
 authors = [{ name = "Louis Facun", email="louisfacun@gmail.com" }]
@@ -23,8 +23,8 @@ dependencies = [
 
 
 [project.urls]
-Homepage  = "https://github.com/louisfacun/daisyui-components-django"
-Issues = "https://github.com/louisfacun/daisyui-components-django/issues"
+Homepage  = "https://github.com/louisfacun/django-components-daisyui"
+Issues = "https://github.com/louisfacun/django-components-daisyui/issues"
 
 
 [dependency-groups]
