@@ -13,3 +13,12 @@ pip install django-components-daisyui
 - Python >= 3.10
 - Django >= 5.0
 - django-components >= 0.25
+
+
+## Development
+
+To build the package:
+
+```bash
+uv pip install build
+uv run python -m build
