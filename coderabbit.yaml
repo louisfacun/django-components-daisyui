@@ -1,0 +1,19 @@
+# CodeRabbit Configuration Template
+# Complete reference: https://docs.coderabbit.ai/reference/configuration
+
+language: "en-US"
+
+# --- Customized ---
+reviews:
+  # More feedback
+  profile: "assertive"
+  # Make PR tidy
+  sequence_diagrams: false
+  in_progress_fortune: false
+  poem: false
+  art: false
+
+  auto_review:
+    drafts: true
+    base_branches:
+      - "master"
