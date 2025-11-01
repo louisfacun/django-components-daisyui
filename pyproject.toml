@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-components-daisyui"
-version = "0.0.1a0"
+version = "0.0.1a1"
 description = "Reusable daisyUI components with django-components"
 authors = [{ name = "Louis Facun", email="louisfacun@gmail.com" }]
 readme = "README.md"
@@ -21,6 +21,8 @@ dependencies = [
     "django-components>=0.25",
 ]
 
+[tool.setuptools.package-data]
+"django_components_daisyui" = ["components/**/*.html"]
 
 [project.urls]
 Homepage  = "https://github.com/louisfacun/django-components-daisyui"
@@ -31,6 +33,5 @@ Issues = "https://github.com/louisfacun/django-components-daisyui/issues"
 dev = [
     "djlint>=1.36.4",
     "pytest>=8.4.2",
-    "pytest-django>=4.5.0",
     "ruff>=0.14.1",
 ]
